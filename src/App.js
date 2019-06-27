@@ -2,6 +2,7 @@ import React from 'react';
 import Menu from './Menu';
 import Intro from './Intro';
 import Houses from './Houses';
+import HouseInfo from './HouseInfo';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 
 
@@ -16,6 +17,7 @@ function App() {
           <Menu />    
           <Route exact path="/intro" component={Intro} />
           <Route exact path="/houses" component={Houses} />
+          <Route exact path='/houses/:houseId' render={(props) => <HouseInfo {...props} />} />
         </Router>
       </div>
     </div>
