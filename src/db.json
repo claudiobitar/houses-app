@@ -1,0 +1,32 @@
+[
+  {
+    "houseId": 1,
+    "name": "House 1",
+    "photos": [
+      "house1_001.jpg",
+      "house1_002.jpg",
+      "house1_003.jpg",
+      "house1_004.jpg"
+    ]
+  },
+  {
+    "houseId": 2,
+    "name": "House 2",
+    "photos": [
+      "house2_001.jpg",
+      "house2_002.jpg",
+      "house2_003.jpg",
+      "house2_004.jpg"      
+    ]
+  },
+  {
+    "houseId": 3,
+    "name": "House 3",
+    "photos": [
+      "house3_001.jpg",
+      "house3_002.jpg",
+      "house3_003.jpg",
+      "house3_004.jpg"     
+    ]
+  } 
+]
